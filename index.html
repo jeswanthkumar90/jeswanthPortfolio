@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Velidi Jeswanth Kumar — Java Full Stack Developer & Backend Engineer. Professional Portfolio."/>
+  <meta name="keywords" content="Jeswanth Kumar, Java Developer, Full Stack, Backend, Portfolio, Spring, Hibernate, JDBC, Servlets"/>
+  <meta name="author" content="Velidi Jeswanth Kumar"/>
+  <title>Velidi Jeswanth Kumar | Java Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ========== TOP NAVBAR ========== -->
+  <header class="topnav" id="topnav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <span class="logo-box">JK</span>
+        <span class="logo-text">Jeswanth Kumar</span>
+      </a>
+      <nav class="nav-menu" id="nav-menu" aria-label="Main navigation">
+        <a href="#home"       class="nav-link active" data-sec="home">Home</a>
+        <a href="#about"      class="nav-link" data-sec="about">About</a>
+        <a href="#education"  class="nav-link" data-sec="education">Education</a>
+        <a href="#skills"     class="nav-link" data-sec="skills">Skills</a>
+        <a href="#services"   class="nav-link" data-sec="services">Services</a>
+        <a href="#projects"   class="nav-link" data-sec="projects">Projects</a>
+        <a href="#experience" class="nav-link" data-sec="experience">Experience</a>
+        <a href="#github"     class="nav-link" data-sec="github">GitHub</a>
+        <a href="#contact"    class="nav-link" data-sec="contact">Contact</a>
+      </nav>
+      <a href="#contact" class="nav-cta">Hire Me <i class="fas fa-arrow-right"></i></a>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HOME / HERO ========== -->
+  <section id="home" class="section hero-section">
+    
+    <div class="hero-grid">
+      <!-- Left -->
+      <div class="hero-left">
+        <div class="hero-stats fade-up">
+          <div class="h-stat">
+            <span class="h-num">*3+</span>
+            <span class="h-lbl">Projects<br>Completed</span>
+          </div>
+          <div class="h-stat">
+            <span class="h-num">*8.12</span>
+            <span class="h-lbl">CGPA<br>Score</span>
+          </div>
+          <div class="h-stat">
+            <span class="h-num">*12+</span>
+            <span class="h-lbl">Technologies<br>Mastered</span>
+          </div>
+        </div>
+        <div class="hero-main">
+          <h1 class="hero-hello fade-up delay-1">Hello</h1>
+          <p class="hero-tagline fade-up delay-2">
+            — I'm <strong>Velidi Jeswanth Kumar</strong>, a <span id="typed-role"></span><span class="typed-cur">|</span>
+          </p>
+          <p class="hero-bio fade-up delay-3">
+            Passionate Java Full Stack Developer from Andhra Pradesh. B.Tech CSE (Data Science) 
+            from Presidency University, Bengaluru. Building scalable web applications with 
+            <strong>Java, Servlets, JSP, JDBC &amp; MySQL</strong>. Currently mastering 
+            <em>Spring Framework &amp; Hibernate</em>.
+          </p>
+          <div class="hero-btns fade-up delay-4">
+            <a href="resume.pdf" download="Velidi_Jeswanth_Kumar_Resume.pdf" class="btn-dark" id="dl-resume"><i class="fas fa-download"></i> Download Resume</a>
+            <a href="#projects" class="btn-outline-dark">View Projects <i class="fas fa-arrow-right"></i></a>
+            <a href="#contact" class="btn-ghost">Contact Me</a>
+          </div>
+          <div class="hero-socials fade-up delay-5">
+            <a href="https://github.com/jeswanthkumar90" target="_blank" class="h-social" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" class="h-social" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:jeswanthk00@gmail.com" class="h-social" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:6281690790" class="h-social" title="Phone"><i class="fas fa-phone"></i></a>
+          </div>
+        </div>
+        <div class="hero-scroll fade-up delay-5">
+          <span>Scroll down</span>
+          <span class="scroll-arr">↓</span>
+        </div>
+      </div>
+      <!-- Right: B&W Photo -->
+      <div class="hero-photo-wrap fade-up delay-1">
+        <img src="hero_photo.jpg" alt="Velidi Jeswanth Kumar" class="hero-photo"
+             onerror="this.src='profile.png'"/>
+        <div class="photo-card">
+          <span class="pc-name">Velidi Jeswanth Kumar</span>
+          <span class="pc-role">Java Full Stack Developer</span>
+        </div>
+        <div class="photo-badge avail-badge">
+          <span class="pulse-dot"></span> Available for Work
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section alt-section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Who I Am</span>
+        <h2 class="sec-title">About <span class="ul-text">Me</span></h2>
+        <div class="sec-rule"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-img-side reveal">
+          <div class="about-frame">
+            <img src="hero_photo.jpg" alt="Jeswanth Kumar" class="about-img"
+                 onerror="this.src='profile.png'"/>
+            <div class="about-frame-border"></div>
+            <div class="about-badge">
+              <span class="ab-num">2026</span>
+              <span class="ab-txt">Graduate</span>
+            </div>
+          </div>
+          <div class="about-info-list">
+            <div class="ai-row"><i class="fas fa-map-marker-alt"></i><div><span class="ai-l">Location</span><span class="ai-v">Bengaluru, Karnataka</span></div></div>
+            <div class="ai-row"><i class="fas fa-envelope"></i><div><span class="ai-l">Email</span><span class="ai-v">jeswanthk00@gmail.com</span></div></div>
+            <div class="ai-row"><i class="fas fa-phone"></i><div><span class="ai-l">Phone</span><span class="ai-v">+91 6281690790</span></div></div>
+            <div class="ai-row"><i class="fas fa-graduation-cap"></i><div><span class="ai-l">Degree</span><span class="ai-v">B.Tech CSE (Data Science)</span></div></div>
+            <div class="ai-row"><i class="fas fa-university"></i><div><span class="ai-l">University</span><span class="ai-v">Presidency University, Bengaluru</span></div></div>
+            <div class="ai-row green-row"><i class="fas fa-circle"></i><div><span class="ai-l">Status</span><span class="ai-v green-v">Available for Work</span></div></div>
+          </div>
+        </div>
+        <div class="about-text-side reveal delay-1">
+          <h3 class="about-sub">Java Full Stack Developer &amp; <span class="em-text">Backend Enthusiast</span></h3>
+          <p class="about-p">My name is Jeswanth Kumar, and I am from Andhra Pradesh. I completed my B.Tech in Computer Science Engineering with a specialization in Data Science from <strong>Presidency University, Bengaluru</strong> with a CGPA of <strong>8.12</strong>.</p>
+          <p class="about-p">I am passionate about <strong>Java backend development</strong> and full-stack web development. My technical skills include Java, Python, SQL, HTML, CSS, JavaScript, MySQL, JDBC, Servlets, and JSP. I enjoy solving Java programming problems involving Data Structures and Collections while continuously learning modern technologies such as <em>Hibernate and Spring Framework</em>.</p>
+          <div class="about-chips">
+            <span class="chip"><i class="fas fa-check"></i> Java Full Stack Developer</span>
+            <span class="chip"><i class="fas fa-check"></i> Backend Dev Enthusiast</span>
+            <span class="chip"><i class="fas fa-check"></i> Problem Solver</span>
+            <span class="chip"><i class="fas fa-check"></i> Quick Learner</span>
+            <span class="chip"><i class="fas fa-check"></i> Team Player</span>
+            <span class="chip"><i class="fas fa-check"></i> Learning Spring &amp; Hibernate</span>
+            <span class="chip"><i class="fas fa-check"></i> Scalable Backend Systems</span>
+          </div>
+          <div class="about-stats-row">
+            <div class="as-item"><span class="as-num">8.12</span><span class="as-lbl">CGPA</span></div>
+            <div class="as-div"></div>
+            <div class="as-item"><span class="as-num">3+</span><span class="as-lbl">Projects</span></div>
+            <div class="as-div"></div>
+            <div class="as-item"><span class="as-num">12+</span><span class="as-lbl">Technologies</span></div>
+            <div class="as-div"></div>
+            <div class="as-item"><span class="as-num">2026</span><span class="as-lbl">Graduate</span></div>
+          </div>
+          <div class="about-cta">
+            <a href="#contact" class="btn-dark">Get In Touch <i class="fas fa-arrow-right"></i></a>
+            <a href="#projects" class="btn-outline-dark">View Projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Academic Journey</span>
+        <h2 class="sec-title">My <span class="ul-text">Education</span></h2>
+        <div class="sec-rule"></div>
+      </div>
+      <div class="edu-timeline">
+        <div class="edu-item reveal">
+          <div class="edu-year-col">
+            <span class="edu-year-badge">2022 – 2026</span>
+          </div>
+          <div class="edu-connector">
+            <div class="edu-dot active-dot"></div>
+            <div class="edu-line"></div>
+          </div>
+          <div class="edu-content">
+            <div class="edu-level">B.Tech</div>
+            <h3 class="edu-deg">Computer Science Engineering</h3>
+            <p class="edu-spec"><i class="fas fa-tag"></i> Specialization: Data Science</p>
+            <p class="edu-inst"><i class="fas fa-university"></i> Presidency University, Bengaluru</p>
+            <div class="edu-score-row">
+              <span class="score-tag">CGPA: <strong>8.12 / 10</strong></span>
+              <div class="score-bar"><div class="score-fill" data-w="81.2"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="edu-item reveal delay-1">
+          <div class="edu-year-col">
+            <span class="edu-year-badge">2020 – 2022</span>
+          </div>
+          <div class="edu-connector">
+            <div class="edu-dot"></div>
+            <div class="edu-line"></div>
+          </div>
+          <div class="edu-content">
+            <div class="edu-level">Intermediate</div>
+            <h3 class="edu-deg">MPC — Mathematics, Physics, Chemistry</h3>
+            <p class="edu-inst"><i class="fas fa-school"></i> Umamaheswara Junior College</p>
+            <div class="edu-score-row">
+              <span class="score-tag">Score: <strong>72.1%</strong></span>
+              <div class="score-bar"><div class="score-fill" data-w="72.1"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="edu-item reveal delay-2">
+          <div class="edu-year-col">
+            <span class="edu-year-badge">2019 – 2020</span>
+          </div>
+          <div class="edu-connector">
+            <div class="edu-dot gold-dot"></div>
+          </div>
+          <div class="edu-content">
+            <div class="edu-level ssc-level">SSC</div>
+            <h3 class="edu-deg">Secondary School Certificate</h3>
+            <p class="edu-inst"><i class="fas fa-school"></i> Nirmala High School</p>
+            <div class="edu-score-row">
+              <span class="score-tag gold-score">Score: <strong>99%</strong> ⭐</span>
+              <div class="score-bar"><div class="score-fill gold-fill" data-w="99"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="section alt-section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">What I Know</span>
+        <h2 class="sec-title">Technical <span class="ul-text">Skills</span></h2>
+        <div class="sec-rule"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-cat reveal">
+          <div class="sc-header"><div class="sc-icon java-ic"><i class="fab fa-java"></i></div><h3>Programming Languages</h3></div>
+          <div class="sc-bars">
+            <div class="sb-row"><span>Java</span><div class="sb-track"><div class="sb-fill" data-w="90"></div></div><span class="sb-pct">90%</span></div>
+            <div class="sb-row"><span>Python</span><div class="sb-track"><div class="sb-fill" data-w="75"></div></div><span class="sb-pct">75%</span></div>
+            <div class="sb-row"><span>SQL</span><div class="sb-track"><div class="sb-fill" data-w="85"></div></div><span class="sb-pct">85%</span></div>
+          </div>
+        </div>
+        <div class="skill-cat reveal delay-1">
+          <div class="sc-header"><div class="sc-icon html-ic"><i class="fab fa-html5"></i></div><h3>Frontend</h3></div>
+          <div class="sc-bars">
+            <div class="sb-row"><span>HTML5</span><div class="sb-track"><div class="sb-fill" data-w="88"></div></div><span class="sb-pct">88%</span></div>
+            <div class="sb-row"><span>CSS3</span><div class="sb-track"><div class="sb-fill" data-w="82"></div></div><span class="sb-pct">82%</span></div>
+            <div class="sb-row"><span>JavaScript</span><div class="sb-track"><div class="sb-fill" data-w="78"></div></div><span class="sb-pct">78%</span></div>
+          </div>
+        </div>
+        <div class="skill-cat reveal delay-2">
+          <div class="sc-header"><div class="sc-icon srv-ic"><i class="fas fa-server"></i></div><h3>Backend</h3></div>
+          <div class="sc-bars">
+            <div class="sb-row"><span>Core Java</span><div class="sb-track"><div class="sb-fill" data-w="90"></div></div><span class="sb-pct">90%</span></div>
+            <div class="sb-row"><span>JDBC</span><div class="sb-track"><div class="sb-fill" data-w="85"></div></div><span class="sb-pct">85%</span></div>
+            <div class="sb-row"><span>Servlets &amp; JSP</span><div class="sb-track"><div class="sb-fill" data-w="82"></div></div><span class="sb-pct">82%</span></div>
+          </div>
+        </div>
+        <div class="skill-cat reveal delay-3">
+          <div class="sc-header"><div class="sc-icon db-ic"><i class="fas fa-database"></i></div><h3>Database</h3></div>
+          <div class="sc-bars">
+            <div class="sb-row"><span>MySQL</span><div class="sb-track"><div class="sb-fill" data-w="88"></div></div><span class="sb-pct">88%</span></div>
+            <div class="sb-row"><span>DBMS Concepts</span><div class="sb-track"><div class="sb-fill" data-w="85"></div></div><span class="sb-pct">85%</span></div>
+          </div>
+        </div>
+        <div class="skill-cat reveal">
+          <div class="sc-header"><div class="sc-icon frm-ic"><i class="fas fa-leaf"></i></div><h3>Frameworks <span class="learning-tag">Learning</span></h3></div>
+          <div class="sc-bars">
+            <div class="sb-row"><span>Hibernate</span><div class="sb-track"><div class="sb-fill learn-fill" data-w="55"></div></div><span class="sb-pct">55%</span></div>
+            <div class="sb-row"><span>Spring Framework</span><div class="sb-track"><div class="sb-fill learn-fill" data-w="50"></div></div><span class="sb-pct">50%</span></div>
+          </div>
+        </div>
+        <div class="skill-cat reveal delay-1">
+          <div class="sc-header"><div class="sc-icon cs-ic"><i class="fas fa-microchip"></i></div><h3>Core CS</h3></div>
+          <div class="sc-bars">
+            <div class="sb-row"><span>Data Structures &amp; Algorithms</span><div class="sb-track"><div class="sb-fill" data-w="82"></div></div><span class="sb-pct">82%</span></div>
+            <div class="sb-row"><span>OOP Concepts</span><div class="sb-track"><div class="sb-fill" data-w="90"></div></div><span class="sb-pct">90%</span></div>
+            <div class="sb-row"><span>Collections &amp; Multithreading</span><div class="sb-track"><div class="sb-fill" data-w="80"></div></div><span class="sb-pct">80%</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- Tech badge wall -->
+      <div class="tech-wall reveal">
+        <span class="tw-chip java-c"><i class="fab fa-java"></i> Java</span>
+        <span class="tw-chip py-c"><i class="fab fa-python"></i> Python</span>
+        <span class="tw-chip html-c"><i class="fab fa-html5"></i> HTML5</span>
+        <span class="tw-chip css-c"><i class="fab fa-css3-alt"></i> CSS3</span>
+        <span class="tw-chip js-c"><i class="fab fa-js"></i> JavaScript</span>
+        <span class="tw-chip git-c"><i class="fab fa-git-alt"></i> Git</span>
+        <span class="tw-chip gh-c"><i class="fab fa-github"></i> GitHub</span>
+        <span class="tw-chip db-c"><i class="fas fa-database"></i> MySQL</span>
+        <span class="tw-chip"><i class="fas fa-cogs"></i> Servlets</span>
+        <span class="tw-chip"><i class="fas fa-file-code"></i> JSP</span>
+        <span class="tw-chip"><i class="fas fa-plug"></i> JDBC</span>
+        <span class="tw-chip tc-c"><i class="fas fa-server"></i> Tomcat</span>
+        <span class="tw-chip sp-c"><i class="fas fa-leaf"></i> Spring</span>
+        <span class="tw-chip hb-c"><i class="fas fa-layer-group"></i> Hibernate</span>
+        <span class="tw-chip ec-c"><i class="fas fa-code"></i> Eclipse IDE</span>
+        <span class="tw-chip vs-c"><i class="fas fa-laptop-code"></i> VS Code</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">What I Offer</span>
+        <h2 class="sec-title">My <span class="ul-text">Services</span></h2>
+        <div class="sec-rule"></div>
+      </div>
+      <div class="srv-grid">
+        <div class="srv-card reveal">
+          <div class="srv-num">01</div>
+          <div class="srv-ico java-srv"><i class="fab fa-java"></i></div>
+          <h3>Java Backend Development</h3>
+          <p>Develop scalable Java backend applications using Servlets, JDBC, and MySQL with MVC architecture and secure authentication.</p>
+          <div class="srv-tags"><span>Java</span><span>Servlets</span><span>JDBC</span><span>MySQL</span></div>
+        </div>
+        <div class="srv-card reveal delay-1">
+          <div class="srv-num">02</div>
+          <div class="srv-ico full-srv"><i class="fas fa-layer-group"></i></div>
+          <h3>Full Stack Web Development</h3>
+          <p>Build complete web applications combining modern frontend technologies with robust Java backend systems and database integration.</p>
+          <div class="srv-tags"><span>HTML5</span><span>CSS3</span><span>JS</span><span>JSP</span></div>
+        </div>
+        <div class="srv-card reveal delay-2">
+          <div class="srv-num">03</div>
+          <div class="srv-ico api-srv"><i class="fas fa-exchange-alt"></i></div>
+          <h3>REST API Development</h3>
+          <p>Create secure, scalable, and well-documented RESTful APIs following best practices and industry standards for web applications.</p>
+          <div class="srv-tags"><span>REST API</span><span>Java</span><span>JSON</span></div>
+        </div>
+        <div class="srv-card reveal delay-3">
+          <div class="srv-num">04</div>
+          <div class="srv-ico db-srv"><i class="fas fa-database"></i></div>
+          <h3>Database Design &amp; SQL</h3>
+          <p>Design normalized relational databases, optimize complex SQL queries, and ensure data integrity with proper schema and indexing.</p>
+          <div class="srv-tags"><span>MySQL</span><span>SQL</span><span>DBMS</span></div>
+        </div>
+        <div class="srv-card reveal">
+          <div class="srv-num">05</div>
+          <div class="srv-ico web-srv"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Responsive Web Design</h3>
+          <p>Build visually stunning, fully responsive, and mobile-friendly user interfaces accessible across all devices and screen sizes.</p>
+          <div class="srv-tags"><span>HTML5</span><span>CSS3</span><span>Responsive</span></div>
+        </div>
+        <div class="srv-card reveal delay-1">
+          <div class="srv-num">06</div>
+          <div class="srv-ico sec-srv"><i class="fas fa-shield-alt"></i></div>
+          <h3>Secure Application Development</h3>
+          <p>Implement BCrypt authentication, session management, SQL injection prevention using PreparedStatement, and secure CRUD operations.</p>
+          <div class="srv-tags"><span>BCrypt</span><span>Sessions</span><span>Security</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="section alt-section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">My Work</span>
+        <h2 class="sec-title">Featured <span class="ul-text">Projects</span></h2>
+        <div class="sec-rule"></div>
+      </div>
+      <div class="proj-list">
+
+        <!-- Project 1 -->
+        <div class="proj-item reveal">
+          <div class="proj-num-label">01</div>
+          <div class="proj-visual food-visual">
+            <div class="pv-mockup">
+              <div class="pv-bar"><span class="pv-dot r"></span><span class="pv-dot y"></span><span class="pv-dot g"></span><span class="pv-url">localhost:8080/food-delivery</span></div>
+              <div class="pv-body">
+                <div class="pv-strip food-strip"></div>
+                <div class="pv-content">
+                  <div class="pv-row full-row"></div>
+                  <div class="pv-cards"><div class="pv-card food-card"></div><div class="pv-card food-card"></div><div class="pv-card food-card"></div></div>
+                  <div class="pv-row half-row"></div>
+                  <div class="pv-row med-row"></div>
+                </div>
+              </div>
+            </div>
+            <div class="proj-hover-overlay">
+              <a href="https://github.com/jeswanthkumar90" target="_blank" class="pho-btn"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="pho-btn pho-demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+          <div class="proj-info">
+            <div class="pi-top">
+              <span class="pi-cat">Full Stack</span>
+              <span class="pi-date"><i class="fas fa-calendar-alt"></i> May – Jul 2026</span>
+            </div>
+            <h3 class="pi-title">Food Delivery Web Application</h3>
+            <p class="pi-desc">Full-stack food delivery platform built with MVC architecture. Features secure BCrypt authentication, session management, shopping cart, order placement, role-based access (admin/user), restaurant listing, menu management, user profile, and checkout system with SQL injection prevention using PreparedStatement.</p>
+            <div class="pi-features">
+              <span><i class="fas fa-check-circle"></i> Secure Auth (BCrypt)</span>
+              <span><i class="fas fa-check-circle"></i> Session Management</span>
+              <span><i class="fas fa-check-circle"></i> Shopping Cart</span>
+              <span><i class="fas fa-check-circle"></i> Role-based Access</span>
+              <span><i class="fas fa-check-circle"></i> SQL Injection Prevention</span>
+              <span><i class="fas fa-check-circle"></i> CRUD Operations</span>
+            </div>
+            <div class="pi-stack">
+              <span class="ps-pill java-p">Java</span><span class="ps-pill">JDBC</span><span class="ps-pill">Servlets</span>
+              <span class="ps-pill">JSP</span><span class="ps-pill html-p">HTML5</span><span class="ps-pill css-p">CSS3</span>
+              <span class="ps-pill js-p">JavaScript</span><span class="ps-pill db-p">MySQL</span><span class="ps-pill">Tomcat</span>
+            </div>
+            <div class="pi-links">
+              <a href="https://github.com/jeswanthkumar90" target="_blank" class="btn-dark"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="btn-outline-dark">Live Demo <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="proj-item reveal">
+          <div class="proj-num-label">02</div>
+          <div class="proj-visual campus-visual">
+            <div class="pv-mockup">
+              <div class="pv-bar"><span class="pv-dot r"></span><span class="pv-dot y"></span><span class="pv-dot g"></span><span class="pv-url">localhost:3000/campus</span></div>
+              <div class="pv-body">
+                <div class="pv-strip campus-strip"></div>
+                <div class="pv-content">
+                  <div class="pv-stats-row"><div class="pv-stat c1"></div><div class="pv-stat c2"></div><div class="pv-stat c3"></div></div>
+                  <div class="pv-chart campus-chart"></div>
+                  <div class="pv-table-mini"></div>
+                </div>
+              </div>
+            </div>
+            <div class="proj-hover-overlay">
+              <a href="https://github.com/jeswanthkumar90" target="_blank" class="pho-btn"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="pho-btn pho-demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+          <div class="proj-info">
+            <div class="pi-top">
+              <span class="pi-cat purple-cat">Dashboard</span>
+              <span class="pi-date"><i class="fas fa-calendar-alt"></i> Feb – Apr 2026</span>
+            </div>
+            <h3 class="pi-title">Campus Monitoring System</h3>
+            <p class="pi-desc">Comprehensive campus management dashboard for monitoring students, attendance, and academic performance. Features a responsive admin dashboard, RESTful API integration, MVC architecture, and secure CRUD operations with MySQL database backend.</p>
+            <div class="pi-features">
+              <span><i class="fas fa-check-circle"></i> Student Monitoring</span>
+              <span><i class="fas fa-check-circle"></i> Attendance Management</span>
+              <span><i class="fas fa-check-circle"></i> Performance Tracking</span>
+              <span><i class="fas fa-check-circle"></i> RESTful APIs</span>
+              <span><i class="fas fa-check-circle"></i> Responsive Dashboard</span>
+              <span><i class="fas fa-check-circle"></i> MVC Architecture</span>
+            </div>
+            <div class="pi-stack">
+              <span class="ps-pill node-p">Node.js</span><span class="ps-pill js-p">JavaScript</span>
+              <span class="ps-pill">REST API</span><span class="ps-pill html-p">HTML5</span>
+              <span class="ps-pill css-p">CSS3</span><span class="ps-pill db-p">MySQL</span>
+            </div>
+            <div class="pi-links">
+              <a href="https://github.com/jeswanthkumar90" target="_blank" class="btn-dark"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="btn-outline-dark">Live Demo <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="proj-item reveal">
+          <div class="proj-num-label">03</div>
+          <div class="proj-visual legal-visual">
+            <div class="pv-mockup">
+              <div class="pv-bar"><span class="pv-dot r"></span><span class="pv-dot y"></span><span class="pv-dot g"></span><span class="pv-url">legalservices-platform.com</span></div>
+              <div class="pv-body">
+                <div class="pv-strip legal-strip"></div>
+                <div class="pv-content">
+                  <div class="pv-hero-mini legal-hero"></div>
+                  <div class="pv-svc-grid"><div class="pv-svc legal-svc"></div><div class="pv-svc legal-svc"></div><div class="pv-svc legal-svc"></div><div class="pv-svc legal-svc"></div></div>
+                </div>
+              </div>
+            </div>
+            <div class="proj-hover-overlay">
+              <a href="https://github.com/jeswanthkumar90" target="_blank" class="pho-btn"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="pho-btn pho-demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+          <div class="proj-info">
+            <div class="pi-top">
+              <span class="pi-cat pink-cat">Platform</span>
+              <span class="pi-date"><i class="fas fa-calendar-alt"></i> Sep – Nov 2025</span>
+            </div>
+            <h3 class="pi-title">Legal Services Platform</h3>
+            <p class="pi-desc">A marketplace platform connecting citizens with verified legal professionals. Features user profile management, service listings, search and filter, marketplace architecture, database integration, and a clean, accessible user interface for both clients and lawyers.</p>
+            <div class="pi-features">
+              <span><i class="fas fa-check-circle"></i> Legal Pro Connect</span>
+              <span><i class="fas fa-check-circle"></i> User Profiles</span>
+              <span><i class="fas fa-check-circle"></i> Service Listings</span>
+              <span><i class="fas fa-check-circle"></i> Database Integration</span>
+              <span><i class="fas fa-check-circle"></i> Accessible UI</span>
+              <span><i class="fas fa-check-circle"></i> Marketplace Arch</span>
+            </div>
+            <div class="pi-stack">
+              <span class="ps-pill html-p">HTML5</span><span class="ps-pill css-p">CSS3</span>
+              <span class="ps-pill js-p">JavaScript</span><span class="ps-pill db-p">MySQL</span>
+            </div>
+            <div class="pi-links">
+              <a href="https://github.com/jeswanthkumar90" target="_blank" class="btn-dark"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="btn-outline-dark">Live Demo <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Career</span>
+        <h2 class="sec-title">My <span class="ul-text">Experience</span></h2>
+        <div class="sec-rule"></div>
+      </div>
+      <div class="exp-layout">
+        <div class="exp-main-card reveal">
+          <div class="exp-rocket"><i class="fas fa-rocket"></i></div>
+          <div class="exp-badge-row"><span class="exp-badge">Fresher — 2026</span><span class="exp-avail"><span class="pulse-dot"></span> Actively Looking</span></div>
+          <h3 class="exp-title">Java Full Stack Developer</h3>
+          <p class="exp-sub">Seeking entry-level opportunities in Java Backend & Full Stack Development</p>
+          <p class="exp-desc">Highly motivated Computer Science Engineering graduate with a specialization in Data Science, seeking opportunities in Java Backend Development and Full Stack Development. Equipped with hands-on project experience building real-world applications using Java, Servlets, JSP, JDBC, and MySQL. Ready to contribute to challenging software development projects while continuously learning modern technologies like Spring Framework and Hibernate.</p>
+          <div class="exp-strengths">
+            <div class="es-row"><i class="fas fa-check-circle"></i><span>Strong Java fundamentals — OOP, Collections, Multithreading, Exception Handling</span></div>
+            <div class="es-row"><i class="fas fa-check-circle"></i><span>3 real-world projects: Food Delivery App, Campus Monitoring System, Legal Platform</span></div>
+            <div class="es-row"><i class="fas fa-check-circle"></i><span>Experience with MVC architecture, REST API design, and database optimization</span></div>
+            <div class="es-row"><i class="fas fa-check-circle"></i><span>Hands-on with secure authentication (BCrypt), session management, and CRUD ops</span></div>
+            <div class="es-row"><i class="fas fa-check-circle"></i><span>Currently advancing skills in Spring Framework and Hibernate ORM</span></div>
+          </div>
+          <div class="exp-cta">
+            <a href="mailto:jeswanthk00@gmail.com" class="btn-dark"><i class="fas fa-envelope"></i> Hire Me</a>
+            <a href="#projects" class="btn-outline-dark">View Projects</a>
+            <a href="resume.pdf" download="Velidi_Jeswanth_Kumar_Resume.pdf" class="btn-ghost" id="dl-cv"><i class="fas fa-download"></i> Download CV</a>
+          </div>
+        </div>
+        <div class="exp-timeline-col reveal delay-1">
+          <h4 class="exp-tl-head">Project Timeline</h4>
+          <div class="exp-tl">
+            <div class="etl-item">
+              <div class="etl-dot active-etl"></div>
+              <div class="etl-info">
+                <span class="etl-yr">May – Jul 2026</span>
+                <h5>Food Delivery Web Application</h5>
+                <p>Major Project · Java, Servlets, JSP, JDBC, MySQL, Tomcat</p>
+              </div>
+            </div>
+            <div class="etl-item">
+              <div class="etl-dot"></div>
+              <div class="etl-info">
+                <span class="etl-yr">Feb – Apr 2026</span>
+                <h5>Campus Monitoring System</h5>
+                <p>Academic Project · Node.js, REST API, JavaScript, MySQL</p>
+              </div>
+            </div>
+            <div class="etl-item">
+              <div class="etl-dot"></div>
+              <div class="etl-info">
+                <span class="etl-yr">Sep – Nov 2025</span>
+                <h5>Legal Services Platform</h5>
+                <p>Academic Project · HTML5, CSS3, JavaScript, MySQL</p>
+              </div>
+            </div>
+            <div class="etl-item">
+              <div class="etl-dot"></div>
+              <div class="etl-info">
+                <span class="etl-yr">2022 – Present</span>
+                <h5>B.Tech — Presidency University</h5>
+                <p>CSE with Data Science · CGPA 8.12</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GITHUB ========== -->
+  <section id="github" class="section alt-section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Open Source</span>
+        <h2 class="sec-title">GitHub <span class="ul-text">Statistics</span></h2>
+        <div class="sec-rule"></div>
+      </div>
+      <div class="gh-layout">
+        <div class="gh-left reveal">
+          <div class="gh-profile-card">
+            <div class="gh-avatar"><i class="fab fa-github"></i></div>
+            <div class="gh-info">
+              <h3>jeswanthkumar90</h3>
+              <p>Java Developer · Fresher · 2026</p>
+            </div>
+            <div class="gh-mini-stats">
+              <div class="gms"><span>3+</span><small>Repos</small></div>
+              <div class="gms"><span>Java</span><small>Top Lang</small></div>
+              <div class="gms"><span>2026</span><small>Active</small></div>
+            </div>
+            <a href="https://github.com/jeswanthkumar90" target="_blank" class="btn-dark gh-visit-btn"><i class="fab fa-github"></i> Visit GitHub <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="coding-profiles">
+            <h4>Coding Profiles</h4>
+            <a href="https://github.com/jeswanthkumar90" target="_blank" class="cp-row">
+              <div class="cp-icon cp-gh"><i class="fab fa-github"></i></div>
+              <div><span class="cp-name">GitHub</span><span class="cp-handle">jeswanthkumar90</span></div>
+              <i class="fas fa-external-link-alt cp-arr"></i>
+            </a>
+            <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" class="cp-row">
+              <div class="cp-icon cp-li"><i class="fab fa-linkedin-in"></i></div>
+              <div><span class="cp-name">LinkedIn</span><span class="cp-handle">Velidi Jeswanth Kumar</span></div>
+              <i class="fas fa-external-link-alt cp-arr"></i>
+            </a>
+            <div class="cp-row disabled-cp">
+              <div class="cp-icon cp-lc"><i class="fas fa-code"></i></div>
+              <div><span class="cp-name">LeetCode</span><span class="cp-handle">Coming Soon</span></div>
+              <i class="fas fa-clock cp-arr"></i>
+            </div>
+            <div class="cp-row disabled-cp">
+              <div class="cp-icon cp-gfg"><i class="fas fa-laptop-code"></i></div>
+              <div><span class="cp-name">GeeksforGeeks</span><span class="cp-handle">Coming Soon</span></div>
+              <i class="fas fa-clock cp-arr"></i>
+            </div>
+          </div>
+        </div>
+        <div class="gh-right reveal delay-1">
+          <div class="gh-stat-card">
+            <img src="https://github-readme-stats.vercel.app/api?username=jeswanthkumar90&show_icons=true&theme=default&bg_color=f0ede6&hide_border=true&title_color=111111&text_color=444444&icon_color=111111&border_radius=12" alt="GitHub Stats" class="gh-img" loading="lazy"/>
+          </div>
+          <div class="gh-stat-card">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeswanthkumar90&theme=default&background=f0ede6&hide_border=true&ring=111111&fire=444444&currStreakLabel=111111&border_radius=12" alt="GitHub Streak" class="gh-img" loading="lazy"/>
+          </div>
+          <div class="gh-stat-card">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeswanthkumar90&layout=compact&theme=default&bg_color=f0ede6&hide_border=true&title_color=111111&text_color=444444&border_radius=12" alt="Top Languages" class="gh-img" loading="lazy"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="sec-head">
+        <span class="sec-tag">Get In Touch</span>
+        <h2 class="sec-title">Contact <span class="ul-text">Me</span></h2>
+        <div class="sec-rule"></div>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-left reveal">
+          <p class="contact-intro">I'm currently <strong>open to new opportunities</strong> in Java Backend and Full Stack Development. If you have a project, a job offer, or just want to say hello — feel free to reach out!</p>
+          <div class="contact-list">
+            <div class="cl-row"><div class="cl-icon email-i"><i class="fas fa-envelope"></i></div><div><span class="cl-lbl">Email</span><a href="mailto:jeswanthk00@gmail.com" class="cl-val">jeswanthk00@gmail.com</a></div></div>
+            <div class="cl-row"><div class="cl-icon phone-i"><i class="fas fa-phone"></i></div><div><span class="cl-lbl">Phone</span><a href="tel:6281690790" class="cl-val">+91 6281690790</a></div></div>
+            <div class="cl-row"><div class="cl-icon loc-i"><i class="fas fa-map-marker-alt"></i></div><div><span class="cl-lbl">Location</span><span class="cl-val">Bengaluru, Karnataka, India</span></div></div>
+            <div class="cl-row"><div class="cl-icon gh-i"><i class="fab fa-github"></i></div><div><span class="cl-lbl">GitHub</span><a href="https://github.com/jeswanthkumar90" target="_blank" class="cl-val">github.com/jeswanthkumar90</a></div></div>
+            <div class="cl-row"><div class="cl-icon li-i"><i class="fab fa-linkedin-in"></i></div><div><span class="cl-lbl">LinkedIn</span><a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" class="cl-val">Velidi Jeswanth Kumar</a></div></div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/jeswanthkumar90" target="_blank" class="cs-icon" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" class="cs-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:jeswanthk00@gmail.com" class="cs-icon" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:6281690790" class="cs-icon" title="Phone"><i class="fas fa-phone"></i></a>
+          </div>
+          <div class="map-wrap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.99710169716!2d77.35074117838372!3d12.95389619737271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1693000000000!5m2!1sen!2sin" width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy" title="Bengaluru Map"></iframe>
+          </div>
+        </div>
+        <div class="contact-right reveal delay-1">
+          <form id="contact-form" class="cform" novalidate>
+            <div class="cf-row">
+              <div class="cf-field">
+                <label for="cf-name">Full Name</label>
+                <div class="cf-input-wrap"><i class="fas fa-user"></i><input type="text" id="cf-name" placeholder="Your full name" required/></div>
+              </div>
+              <div class="cf-field">
+                <label for="cf-email">Email</label>
+                <div class="cf-input-wrap"><i class="fas fa-envelope"></i><input type="email" id="cf-email" placeholder="your@email.com" required/></div>
+              </div>
+            </div>
+            <div class="cf-field">
+              <label for="cf-subject">Subject</label>
+              <div class="cf-input-wrap"><i class="fas fa-tag"></i><input type="text" id="cf-subject" placeholder="Message subject" required/></div>
+            </div>
+            <div class="cf-field">
+              <label for="cf-message">Message</label>
+              <div class="cf-input-wrap cf-ta-wrap"><i class="fas fa-comment-alt"></i><textarea id="cf-message" rows="6" placeholder="Write your message here..." required></textarea></div>
+            </div>
+            <button type="submit" class="btn-dark cf-submit" id="cf-submit">
+              <i class="fas fa-paper-plane"></i> <span>Send Message</span>
+            </button>
+            <div class="cf-success" id="cf-success" style="display:none;"><i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-box">JK</span>
+        <span>Velidi Jeswanth Kumar</span>
+      </div>
+      <p class="footer-copy">Designed &amp; Developed with <span class="heart">❤</span> by <strong>Velidi Jeswanth Kumar</strong> · © <span id="yr"></span></p>
+      <div class="footer-socials">
+        <a href="https://github.com/jeswanthkumar90" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:jeswanthk00@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <button class="back-top" id="back-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
